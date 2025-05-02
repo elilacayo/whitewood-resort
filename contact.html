@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whitewood Resort and Spa | Contact</title>
+  <meta name="author" content="Eli Lacayo">
+  <meta name="description" content="Contact page for Whitewood Resort and Spa">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+  <header>
+    <h1><a href="index.html">WHITEWOOD RESORT AND SPA</a></h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Accommodations</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="content-box">
+    <section class="intro">
+      <h2>We’d Love to Hear From You</h2>
+      <p>Interested in staying with us? Want to learn more? Drop us a line and we’ll get back to you shortly.</p>
+    </section>
+
+    <section class="contact-flex">
+      <img src="images/swiss-peak.jpg" alt="swiss peak" width="500" height="300">
+
+      <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <p><strong>Preferred Contact Method:</strong></p>
+        <div class="radio-row">
+          <label><input type="radio" name="contact-method" value="email" checked> Email</label>
+          <label><input type="radio" name="contact-method" value="phone"> Phone</label>
+        </div>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" required></textarea><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright ©2023 - Whitewood Resort and Spa</p>
+    <p>This site is for educational purposes only</p>
+  </footer>
+
+</body>
+</html>
